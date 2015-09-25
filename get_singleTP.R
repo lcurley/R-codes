@@ -1,7 +1,7 @@
 ## Taking the first timepoint (TP) of PLING data
 ## First TP for each SubjID with complete /x/ data; options below (x = MRI, DTI, etc.)
 rm(list=ls())
-setwd("/Users/laurenbutlercurley/Documents/R codes")
+setwd("/Users/lcurley/Documents/R codes")
 dat <- read.csv("usercache_PLING_lauren.csv", header = TRUE)
 dat[order(dat$SubjID,dat$Date),]  # Sort by ID and week - shouldn't be necessary
 

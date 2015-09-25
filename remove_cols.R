@@ -1,7 +1,7 @@
 # removing data from usercache
 # ex. removing all MRI or DTI data
 rm(list=ls())
-setwd("/Users/laurenbutlercurley/Documents/R codes")
+setwd("/Users/lcurley/Documents/R codes")
 
 dat <- read.csv("usercache_PLING_lauren.csv", header = TRUE)
 dat_noDTI <- dat[, -grep("DTI", colnames(dat))]

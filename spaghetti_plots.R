@@ -8,7 +8,7 @@
 library(plyr)
 
 rm(list=ls())
-setwd("/Users/laurenbutlercurley/Documents/R codes")
+setwd("/Users/lcurley/Documents/R codes")
 
 dat <- read.csv("usercache_PLING_lauren.csv", header = TRUE)
 # rownum <- nrow(dat)

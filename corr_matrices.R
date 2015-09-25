@@ -1,6 +1,6 @@
 # Correlation matrices and plotting
 
-setwd("/Users/laurenbutlercurley/Documents/R codes/first TP")
+setwd("/Users/lcurley/Documents/R codes/first TP")
 
 library(lattice)
 dat <- read.csv("firstTP_DTI_FA.csv", header = TRUE)
